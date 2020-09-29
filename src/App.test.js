@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 import { StaticRouter } from 'react-router-dom';
 
 import App from './App';
@@ -11,5 +11,5 @@ it('renders without crashing', () => {
                         <App />
                  </StaticRouter>
         ),div);
-        ReactDom.unmountCompomentAtNode(div);
+        ReactDOM.unmountCompomentAtNode(div);
 });
