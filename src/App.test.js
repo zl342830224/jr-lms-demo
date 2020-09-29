@@ -11,5 +11,5 @@ it('renders without crashing', () => {
                         <App />
                  </StaticRouter>
         ),div);
-        ReactDOM.unmountCompomentAtNode(div);
+        ReactDOM.unmountComponentAtNode(div);
 });
